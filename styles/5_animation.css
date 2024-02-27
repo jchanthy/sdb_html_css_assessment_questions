@@ -1,0 +1,19 @@
+@keyframes popLeft {
+
+}
+
+.title {
+    color: darkblue;
+    position: relative;
+
+    left:30px;
+
+    cursor: pointer;
+
+    animation-name: popLeft;
+
+}
+
+.title:hover {
+    color:blueviolet;
+}
