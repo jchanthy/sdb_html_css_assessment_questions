@@ -37,9 +37,13 @@ nav a {
 
 main {
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 article {
+    width: 100%;
     background-color: #f2f2f2;
     padding: 20px;
     margin-bottom: 20px;
