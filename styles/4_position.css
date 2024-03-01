@@ -30,6 +30,8 @@ background-color: royalblue;
 }
 
 .notification {
+    position: absolute;
+    right: 20px;
     width: 400px;
     background-color: bisque;
     padding: 20px;
