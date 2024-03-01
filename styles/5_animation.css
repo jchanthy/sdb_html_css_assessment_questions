@@ -1,5 +1,10 @@
 @keyframes popLeft {
-
+    from    {
+        left: 0;
+    }
+    to {
+        left: 30px;
+    }
 }
 
 .title {
@@ -12,6 +17,12 @@
 
     animation-name: popLeft;
 
+    /*transition-property: popLeft;*/
+    transition-duration: 3s;
+    /*transition-timing-function: ease-in;*/
+    /*transition-delay: 1s;*/
+
+    animation: popLeft ease-out 2s;
 }
 
 .title:hover {
