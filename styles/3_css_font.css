@@ -1,6 +1,8 @@
 @font-face {
-    
+    font-family: "Pacifico";
+    src: url("/fonts/Pacifico-Regular.ttf");
 }
 
 .title {
+    font-family: "Pacifico", serif;
 }
