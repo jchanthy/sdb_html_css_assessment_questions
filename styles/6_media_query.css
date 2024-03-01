@@ -37,19 +37,23 @@ nav a {
 /* Media Query */
 @media only screen and (max-width: 600px) {
     header {
-
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     nav {
-
     }
 
     nav ul {
-
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
     }
 
     nav li {
-
+        margin: 0;
+        padding: 3px;
     }
 }
     
